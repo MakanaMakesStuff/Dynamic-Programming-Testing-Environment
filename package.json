@@ -4,7 +4,7 @@
   "description": "Dynamic programming practice and testing",
   "main": "index.js",
   "scripts": {
-    "fib": "ts-node src/Fibonacci-Sequence/index.ts",
+    "dev": "ts-node src/Grid-Traveler/index.ts",
     "test": "jest"
   },
   "author": "Makanaokeakua Edwards",
