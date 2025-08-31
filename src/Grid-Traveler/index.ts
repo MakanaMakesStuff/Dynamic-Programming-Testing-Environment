@@ -12,16 +12,17 @@ export const gridTravelerMemo = (
 	memo: Record<string, number> = {}
 ): number => {
 	// if this coordinate was already calculated, return its value
-	if (`${m},${n}` in memo) return memo[`${m},${n}`];
+	// since the order of coordinates does not matter when it comes to values(i.e. (1,2) is the same as (2,1)), we can nomarlize the key for both instances
+	const key = `${Math.min(m, n)},${Math.max(m, n)}`;
+
+	if (key in memo) return memo[key];
 
 	if (m == 0 || n == 0) return 0;
 	if (m == 1 && n == 1) return 1;
 
 	// set the coordinate value the return of our recursive call
-	memo[`${m},${n}`] =
+	memo[key] =
 		gridTravelerMemo(m - 1, n, memo) + gridTravelerMemo(m, n - 1, memo);
 
-	return memo[`${m},${n}`];
+	return memo[key];
 };
-
-console.log(gridTravelerMemo(25, 30));
