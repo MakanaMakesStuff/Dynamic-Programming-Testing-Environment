@@ -4,7 +4,7 @@
   "description": "Dynamic programming practice and testing",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/How-Sum/index.ts",
+    "dev": "ts-node src/Best-Sum/index.ts",
     "test": "jest"
   },
   "author": "Makanaokeakua Edwards",
