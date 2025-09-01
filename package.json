@@ -4,7 +4,7 @@
   "description": "Dynamic programming practice and testing",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/Count-Construct/index.ts",
+    "dev": "ts-node src/All-Construct/index.ts",
     "test": "jest"
   },
   "author": "Makanaokeakua Edwards",
