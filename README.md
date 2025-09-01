@@ -14,12 +14,6 @@ See [src/Fibonacci-Sequence](src/Fibonacci-Sequence) for an example.
 
 > You can run tests on individual files or all files at once
 
-### All Files
-
-```bash
-npm run test-all
-```
-
 ### Single Files
 
 ```bash
@@ -27,3 +21,9 @@ npm run test
 ```
 
 > This will open an interactive terminal allowing you to test a specific folder within your src folder. This is why folder structure should be consistent.
+
+### All Files
+
+```bash
+npm run test-all
+```
