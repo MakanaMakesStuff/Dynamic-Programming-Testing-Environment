@@ -4,8 +4,8 @@
   "description": "Dynamic programming practice and testing",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/All-Construct/index.ts",
-    "test": "jest"
+    "test": "bash scripts/interact.sh",
+    "test-all": "jest"
   },
   "author": "Makanaokeakua Edwards",
   "license": "ISC",

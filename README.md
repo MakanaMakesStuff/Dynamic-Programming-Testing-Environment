@@ -9,3 +9,21 @@
 3. Create an `index.test.ts` file in the root of your new folder(same level as the index.ts file you just created) and implement your jest tests here.
 
 See [src/Fibonacci-Sequence](src/Fibonacci-Sequence) for an example.
+
+## Testing files
+
+> You can run tests on individual files or all files at once
+
+### All Files
+
+```bash
+npm run test-all
+```
+
+### Single Files
+
+```bash
+npm run test
+```
+
+> This will open an interactive terminal allowing you to test a specific folder within your src folder. This is why folder structure should be consistent.
