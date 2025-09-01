@@ -27,3 +27,5 @@ npm run test
 ```bash
 npm run test-all
 ```
+
+> Runs all test simultaneously
