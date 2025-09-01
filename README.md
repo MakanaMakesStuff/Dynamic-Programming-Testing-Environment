@@ -17,7 +17,7 @@ See [src/Fibonacci-Sequence](src/Fibonacci-Sequence) for an example.
 ### Single Files
 
 ```bash
-npm test
+npm run test
 ```
 
 > This will open an interactive terminal allowing you to test a specific folder within your src folder. This is why folder structure should be consistent.
@@ -25,5 +25,5 @@ npm test
 ### All Files
 
 ```bash
-npm test-all
+npm run test-all
 ```
