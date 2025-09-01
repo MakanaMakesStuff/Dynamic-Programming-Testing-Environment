@@ -1,7 +1,5 @@
 # Dynamic Programming Learning & Testing Module
 
-> To run tests run `npm test`
-
 ## Adding new functions and tests
 
 1. Inside your `src` folder, add a relevant sub folder(ideally name is pertinent to the function being tested).
