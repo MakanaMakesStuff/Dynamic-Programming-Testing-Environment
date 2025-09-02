@@ -36,8 +36,6 @@ export function allConstructMemo(
 			]);
 
 			combined.push(...result);
-
-			memo[m] = result;
 		}
 	}
 
