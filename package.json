@@ -4,6 +4,7 @@
   "description": "Dynamic programming practice and testing",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node src/Grid-Traveler-Tabulation/index.ts",
     "test": "bash scripts/interact.sh",
     "test-all": "jest"
   },

@@ -1,21 +1,14 @@
 export function fib(n: number) {
 	// we will initialize an array of length `n` where each item is `0`
 	const res = Array(n + 1).fill(0);
+	res[1] = 1;
 
-	for (let i = 0; i < res.length; i++) {
-		if (i == 0) continue;
-		if (i == 1) {
-			res[i] = 1;
-			continue;
-		}
-
-		const num1 = res[i - 2];
-		const num2 = res[i - 1];
-
-		res[i] = num1 + num2;
+	for (let i = 0; i <= n; i++) {
+		res[i + 1] += res[i];
+		res[i + 2] += res[i];
 	}
 
-	return res.pop();
+	return res[n];
 }
 
 export function fibOptimized(n: number) {
