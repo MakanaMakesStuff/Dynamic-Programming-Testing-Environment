@@ -1,6 +1,6 @@
 export function fib(n: number) {
 	// we will initialize an array of length `n` where each item is `0`
-	const res = Array.from({ length: n + 1 }).map(() => 0);
+	const res = Array(n + 1).fill(0);
 
 	for (let i = 0; i < res.length; i++) {
 		if (i == 0) continue;
